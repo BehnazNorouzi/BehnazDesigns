@@ -1,0 +1,48 @@
+body{
+	background-color: #000;
+		/*url(/images/background.png) no-repeat #000;*/
+}
+
+
+
+
+@media (min-width: 1200px) { 
+	/*body{
+
+		background-size: 80% auto;
+		background-position: top right;
+	}*/
+	#backgroundImg{
+	width: 70%;
+	height: 70%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	}	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+	#backgroundImg{
+	width: 70%;
+	height: 70%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	}	
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	#backgroundImg{
+	width: 100%;
+	height: auto;
+	}	
+}
+
+@media (max-width: 767px) { 
+	#backgroundImg{
+	width: 100%;
+	height: auto;
+	margin-top: 20%;
+	box-shadow: 0 0 100px #4d4d4d;
+	}
+}
