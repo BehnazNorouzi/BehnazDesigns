@@ -1,0 +1,150 @@
+/* Color Palette #3058 */
+
+html, body{
+
+}
+
+.container{
+	width: 100%;
+}
+.container #mainRow #menuTile {
+	height: 100vh;
+	overflow-y: hidden;
+}
+.container #mainRow #uTile {
+	height: 100vh;
+	overflow-y: hidden;
+}
+.container #mainRow #xTile{
+	height: 100vh;
+	overflow-y: hidden;
+}
+
+#menuTile{
+	background:
+	#c1b6b4;
+	color: #fff;
+	padding: 0;
+}
+
+#uTile{
+	background:
+	#e8e1d7;
+	color: #928688;
+	padding: 0;
+}
+
+#xTile{
+	background:
+	#f2efe8; 
+	color: #e8e1d7;
+	padding: 0;
+}
+
+.container #mainRowForSMandXSsize{
+	background-color: #f2efe8;
+}
+
+#listMenu ul {
+	list-style-type: none;
+}
+
+#listMenu ul li a{
+	text-decoration: none;
+	color: #e5e8e5;
+	font-weight: normal;
+	font-size: 20pt;
+}
+
+
+@media (min-width:1200px){
+	#uxImage{
+	margin-top: 20%;
+	}
+	#ux1Image{
+		margin-top: -110.5%;
+	}
+	#listMenu ul li a{
+		margin-right: 47%;
+	}
+	#listMenu{
+		margin-top: 45%;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	#uxImage{
+	margin-top: 20%;
+	}
+	#ux1Image{
+		margin-top: -110.5%;
+	}
+
+	#listMenu ul li a{
+	font-size: 18pt;
+	margin-right: 40%;
+	}
+	#listMenu{
+		margin-top: 45%;
+	}
+
+}
+@media (min-width:768px) and (max-width:991px){
+	.container #mainRow #menuTile {
+	height: 60vh;
+	}
+	.container #mainRow #uTile {
+		height: 60vh;
+	}
+	.container #mainRow #xTile{
+		height: 60vh;
+	}
+	.container #mainRowForSMandXSsize{
+		height: 40vh;
+	}
+	#uxImage{
+	margin-top: 20%;
+	}
+	#ux1Image{
+		margin-top: -111%;
+	}
+	#listMenu{
+		margin-top: 130%;
+	}
+	#listMenu ul li a{
+	font-size: 15pt;
+	margin-right: 35%;
+	}
+	#listMenu{
+		margin-top: 45%;
+	}
+
+}
+@media (max-width:767px){
+	.container #mainRow #menuTile {
+	height: 50vh;
+	}
+	.container #mainRow #uTile {
+		height: 50vh;
+	}
+	.container #mainRow #xTile{
+		height: 50vh;
+	}
+	.container #mainRowForSMandXSsize{
+		height: 50vh;
+	}
+	#uxImage{
+	margin-top: 10%;
+	}
+	#ux1Image{
+		margin-top: -120.2%;
+	}
+	#listMenu ul li a{
+		font-size: 10pt;
+		margin-right: 20%;
+	}
+	#listMenu{
+		margin-top: 40%;
+	}
+
+}
