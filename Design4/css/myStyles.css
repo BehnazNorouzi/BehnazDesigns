@@ -149,8 +149,11 @@ html, body{
 	}
 	#mainRowForSMandXSsize h1{
 		text-align: center;
-		letter-spacing: 20pt;
+		letter-spacing: 22pt;
 		padding-top: 3%;
+	}
+		#mainRowForSMandXSsize h1:nth-child(2){
+		padding-top: 0;
 	}
 
 }
@@ -180,14 +183,14 @@ html, body{
 	#listMenu{
 		margin-top: 40%;
 	}
-	#mainRowForSMandXSsize h1{
-		font-size: 20pt;
+	#mainRowForSMandXSsize h3{
+		font-size: 10pt;
 		text-align: center;
-		letter-spacing: 20pt;
-		padding-top: 5%;
-	}
-	#mainRowForSMandXSsize h1:nth-child(2){
+		letter-spacing: 15pt;
 		padding-top: 0;
+	}
+	#mainRowForSMandXSsize h3:nth-child(2){
+		padding-top: 5%;
 	}
 
 }
