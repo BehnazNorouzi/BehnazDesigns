@@ -54,7 +54,9 @@ html, body{
 	font-size: 20pt;
 }
 
-
+#menuTile a:hover{
+	color: #000;
+}
 
 @media (min-width:1200px){
 	#uxImage{
