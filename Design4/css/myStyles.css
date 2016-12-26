@@ -109,27 +109,29 @@ body{
 	.row{
 		margin-left: 0;
 		margin-right: 0;
+		background-color: #3f373c;
 	}
 	#navbar-col{
 		width: 150px;
 	}
 	#navbar-col ul li a{
+		padding-top: 8px;
 		font-size: 1em;
 		margin-left: 45vw;
 		text-align: center;
 	}
 	#design-thinking-row{
-		line-height: 17vh;
+		height: 100vh;
 	}
 	#design-thinking-col{
 		text-align: center;
-		padding-top: 0;
+		padding-top: 40px;
 		color: #c1b6b4;
 		font-size: 1.2em;
 		letter-spacing: 2.4em;
 	}
 	.navbar-nav li:nth-child(1){
-		padding-top: 30px;
+		padding-top: 15px;
  	}
  	#ux-img-col{
  		padding-right: 0;
