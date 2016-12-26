@@ -11,38 +11,48 @@
 <body>
 
 	<div class="container">
-		<div id="mainRow" class="row">
-			<div id="listMenu" class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-				<ul>
+		<div id="navbar-row" class="row">
+			<div id="navbar-col" class="col-lg-3 col-md-3 col-sm-12">
+				<div class="sidebar-nav">
+					<div class="navbar" role="navigation">
+						<div>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+	    					</button>
+						</div> <!-- End of .navbar-header -->
+						<div class="navbar-collapse collapse sidebar-navbar-collapse">
+							<ul class="nav navbar-nav">
 								<li><a href="#">Empathise</a></li>
 								<li><a href="#">Define</a></li>
 								<li><a href="#">Ideate</a></li>
 								<li><a href="#">Prototype</a></li>
 								<li><a href="#">Test</a></li>
-							</ul>
+							</ul>	
+						</div> <!-- End of .navbar-collapse -->
+					</div>
+				</div>
+			</div> <!-- End of #navbar-col -->
+			<div id="ux-img-col" class="col-lg-9 col-md-9 col-sm-12 pull-right">
+					<img class="img-responsive visible-lg visible-md visible-sm" src="images/uxImgLg.png">
+			</div> <!-- End of #ux-img-col -->
+		</div> <!-- End of navbarRow -->
+		<div id="design-thinking-row" class="row">
+			<div id="ux-img-col" class="col-xs-12">
+					<img class="img-responsive visible-xs" src="images/uxImgLg.png">
+			</div>
+			<div class="col-lg-3 col-md-3"></div>
+			<div id="design-thinking-col" class="col-lg-9 		col-md-9 col-sm-12 visible-lg visible-md visible-sm"> <p> DESIGNTHINKING </p> 
+			</div>	
+			<div id="design-thinking-col" class="col-xs-12 visible-xs"> <p> DESIGN</p> 
+			<p>THINKING </p>
+			</div>	
+		</div>
+	</div> <!-- End of Container -->
+		
 				
-			</div>
-			<div class="col-lg-9">
-				<img id="uxImgLg" class="img-responsive visible-lg" src="images/uxImgLg.png">
-			</div>
-			<div class="col-md-8 col-sm-12 col-xs-12">
-				<img id="uxImgMdMsXs" class="img-responsive visible-md visible-sm visible-xs" src="images/uxImgMd.png"><br><br>
-			</div>
-
-	
-				<div id="designThinking" class="col-lg-12 		col-md-12 col-sm-12 visible-lg visible-md 
-					visible-sm"> <h1> DESIGNTHINKING </h1> 
-				</div>
-			<div id="designThinking"> 
-				<div class="col-xs-12
-					visible-xs"> <h1> DESIGN  </h1> 
-				</div>
-				<div class="col-xs-12
-					visible-xs"> <h1> THINKING  </h1> 
-				</div>
-			</div>
-			
-
 				<!--<div id="menuTile" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<img id="ux1Image" class="pull-right img-responsive" src="images/ux1-3.png">
 					<div id="listMenu">
@@ -67,14 +77,14 @@
 				<div id="xTile" class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 					<img id="uxImage" class="img-responsive" src="images/x.png">
 				</div> -->
-		</div> <!-- End of mainRow -->
+		
 		<!--<div id="mainRowForSMandXSsize" class="row visible-sm visible-xs">
 			<h1 class="visible-sm">Design Thinking</h1>
 			<h3 class="visible-xs">Design</h3>
 			<h3 class="visible-xs">Thinking</h3>
 		</div> 	-->
 		
-	</div> <!-- End of Container -->
+	
 
 
 	<script src="js/jquery-2.1.4.min.js"></script>
