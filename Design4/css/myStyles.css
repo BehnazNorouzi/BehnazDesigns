@@ -152,11 +152,11 @@ body{
 		margin-right: auto;
 	}
 	#design-thinking-col{
-		width: 100%;
-		float: none;
+		width: 96%;
+		float: right;
 		text-align: center;
 		padding-top: 20px;
-		letter-spacing: 2.5em;
+		letter-spacing: 2.4em;
 	}
 	#navbar-col{
 		padding-left: 0;
@@ -183,7 +183,7 @@ body{
 		text-indent: 50px;
 	}
 	.sidebar-nav li a {
-		width: 99%;
+		width: 100%;
 		border-left-width:0;
 		border-right-width: 0;
 		text-align: center;
@@ -211,7 +211,8 @@ body{
 		float: none;
 		text-align: center;
 		padding-top: 20px;
-		font-size: 1em;
+		font-size: .9em;
+		font-weight: bolder;
 		letter-spacing: 2.5em;
 		padding-top: 45vh;
 	}
