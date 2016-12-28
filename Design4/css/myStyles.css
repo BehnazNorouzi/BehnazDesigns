@@ -224,10 +224,12 @@ body{
 		font-size: .9em;
 		font-weight: bolder;
 		letter-spacing: 2.5em;
-		padding-top: 45vh;
 	}
 	#design-thinking-col p:nth-child(2){
 		margin-top: -30px;
+	}
+	#ux-img-col{
+		margin-top: -20px;
 	}	
 	
 }
